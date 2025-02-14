@@ -1,13 +1,13 @@
 {
   "name": "thaniel5.github.io",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "backend": "convex dev",
     "build": "tsc -b && vite build",
-    "deploy": "convex deploy -y --cmd \"npm run build\"",
+    "deploy": "convex deploy -y --cmd \"bun run build\"",
     "format": "prettier -w .",
     "lint": "eslint .",
     "preview": "vite preview"
