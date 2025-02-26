@@ -13,6 +13,9 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
+import type * as auth from "../auth.js";
+import type * as http from "../http.js";
+import type * as images from "../images.js";
 import type * as vehicles from "../vehicles.js";
 
 /**
@@ -24,6 +27,9 @@ import type * as vehicles from "../vehicles.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
+  auth: typeof auth;
+  http: typeof http;
+  images: typeof images;
   vehicles: typeof vehicles;
 }>;
 export declare const api: FilterApi<
