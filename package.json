@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "vite",
     "backend": "convex dev",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "deploy": "convex deploy -y --cmd \"npm run build\"",
     "format": "prettier -w .",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@auth/core": "^0.37.4",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.9",
+    "@types/node": "^22.13.5",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
