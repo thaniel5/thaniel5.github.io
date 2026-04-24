@@ -1,9 +1,14 @@
-.header {
+body {
+  font-family: "Inter", sans-serif;
   text-align: center;
-  padding: 1rem;
 }
 
-.subheader {
-  text-align: center;
-  padding: 1rem;
+.header {
+  padding: 1rem 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
