@@ -1,3 +1,8 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
 *,
 *::before,
 *::after {
@@ -55,4 +60,8 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
+}
+
+#root {
+  isolation: isolate;
 }
